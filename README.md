@@ -1,5 +1,10 @@
 this is tool sorts all the files according to their formate
 
+old file orgenizer is not working properly please use file orgenizer 0.002.py
+
+
+
+
 how to use this tool
 
 1. Run the file orgenizer.py file
