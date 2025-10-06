@@ -14,9 +14,6 @@ B/
 C/
 Other/
 
-vbnet
-Copy code
-
 - **Organize by Extension:**  
 Groups files into folders based on their **file extensions**.  
 Example:  
@@ -25,17 +22,11 @@ png/
 pdf/
 txt/
 
-vbnet
-Copy code
-
 - **Organize by Date:**  
 Organizes files into folders named after their **last modified date (DD-MM-YYYY)**.  
 Example:  
 01-10-2025/
 02-10-2025/
-
-yaml
-Copy code
 
 ---
 
@@ -70,17 +61,60 @@ After completion, a message box appears showing **“Done!”**
 ## 🛠️ Installation
 
 1. **Clone or Download** this repository:
- ```bash
+   
  git clone https://github.com/your-username/file-organizer-gui.git
  cd file-organizer-gui
 Install Python (if not already installed):
 
 Download Python
-
 Make sure python and pip are available in your PATH.
 
 Run the Script:
-
-bash
-Copy code
 python file_organizer.py
+
+
+📸 Example
+
+Before Sorting:
+
+Downloads/
+ ├── report.docx
+ ├── image.jpg
+ ├── song.mp3
+ ├── notes.txt
+
+
+After Sorting by Extension:
+
+Downloads/
+ ├── docx/report.docx
+ ├── jpg/image.jpg
+ ├── mp3/song.mp3
+ ├── txt/notes.txt
+
+⚠️ Notes
+
+Files are moved, not copied.
+
+Avoid using it in system directories.
+
+Ensure you have write permissions for the selected folder.
+
+💡 Future Improvements
+
+Add support for undoing organization
+
+Add a preview mode before sorting
+
+Include file size-based sorting
+
+🧑‍💻 Author
+
+Soham (COCO)
+Learning AI/ML, Robotics, and IoT — building cool automation tools.
+
+🐍 Requirements
+
+Python 3.6 or higher
+
+Tkinter (comes pre-installed with Python)
